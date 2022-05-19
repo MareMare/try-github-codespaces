@@ -32,5 +32,4 @@ RUN unzip ~/.poshthemes/themes.zip -d ~/.poshthemes
 RUN chmod u+rw ~/.poshthemes/*.json
 RUN rm ~/.poshthemes/themes.zip
 
-# RUN eval "$(oh-my-posh init bash --config ~/.jandedobbeleer.omp.json)"
-# ENTRYPOINT /bin/bash -c eval "$(oh-my-posh init bash --config ~/.jandedobbeleer.omp.json)"
+COPY [".bashrc", "/home/vscode/.bashrc" ]
