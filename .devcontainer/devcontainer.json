@@ -14,11 +14,32 @@
 	},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {},
+	"settings": {
+		"editor.fontFamily": "Consolas, 'Courier New', monospace, 'UDEV Gothic NF'",
+		"terminal.integrated.defaultProfile.windows": "PowerShell"
+	},
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-dotnettools.csharp"
+		"hnw.vscode-auto-open-markdown-preview",
+		"ms-dotnettools.csharp",
+		"ms-azuretools.vscode-docker",
+		"mhutchie.git-graph",
+		"donjayamanne.githistory",
+		"GitHub.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"MS-CEINTL.vscode-language-pack-ja",
+		"ms-toolsai.jupyter",
+		"MS-vsliveshare.vsliveshare",
+		"yzhang.markdown-all-in-one",
+		"mushan.vscode-paste-image",
+		"ms-vscode.powershell",
+		"ms-python.vscode-pylance",
+		"ms-python.python",
+		"ms-vscode-remote.vscode-remote-extensionpack",
+		"humao.rest-client",
+		"shuworks.vscode-table-formatter",
+		"vscode-icons-team.vscode-icons"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
